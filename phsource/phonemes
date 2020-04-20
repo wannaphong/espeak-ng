@@ -2025,4 +2025,5 @@ include ph_vietnam_sgn
 phonemetable sd ur
 include ph_sindhi
 
-
+phonemetable tha base
+include ph_thai
