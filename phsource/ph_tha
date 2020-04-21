@@ -3,72 +3,132 @@
 // CONSONANTS
 //*******************************************************************
 phoneme b        // b
+  ipa b
   import_phoneme base1/b
-  //voicingswitch d
 endphoneme
 phoneme d        // d
+  ipa d
   import_phoneme base1/d
-  //voicingswitch d
 endphoneme
 phoneme f        // f
+  ipa f
   import_phoneme base1/f
-  //voicingswitch d
 endphoneme
 phoneme h       // h
+  ipa h
   import_phoneme base1/h
-  //voicingswitch d
 endphoneme
 phoneme j       // ipa j
+  ipa j
   import_phoneme base1/j
-  //voicingswitch d
 endphoneme
 phoneme k       // k
-  import_phoneme base1/k
+  ipa k
+  vls vel stp
+  voicingswitch g
+  lengthmod 2
+  Vowelin f1=0  f2=2300 200 300  f3=-200 80
+  Vowelout f1=0 f2=2300 300 400  f3=-200 80  rms=20
+
+  IF KlattSynth THEN
+    Vowelout f1=0 f2=2300 200 300  f3=-200 80  rms=20
+  ENDIF
+
+  IF nextPh(isPause2) THEN
+    WAV(ustop/k_)
+  ELIF nextPh(r) OR nextPh(R) OR nextPh(R2) THEN
+    WAV(ustop/kr)
+  ELIF nextPh(#i) OR nextPh(;) THEN
+    WAV(ustop/ki)
+  ELIF nextPh(l) THEN
+    WAV(ustop/kl)
+  ELIF nextPh(@-) THEN
+    WAV(ustop/k_unasp, 70)
+  ENDIF
+  WAV(ustop/k)
 endphoneme
 phoneme kh
-  //vls vel stp
+  ipa kʰ
   import_phoneme base1/k
 endphoneme
 phoneme l      // l
+  ipa l
   import_phoneme base1/l
 endphoneme
 phoneme m      // m
+  ipa m
   import_phoneme base1/m
 endphoneme
 phoneme n      // n
-  import_phoneme base1/n
+  ipa n
+  vcd alv nas
+  Vowelout f1=2 f2=1500 -300 250  f3=-100 80  rms=20 brk
+  lengthmod 4
+
+  IF KlattSynth THEN
+    Vowelin f1=0 f2=1500 -200 200 f3=0 80
+    FMT(klatt/n)
+  ENDIF
+
+  NextVowelStarts
+    VowelStart(n/n@)
+    VowelStart(n/na)
+    VowelStart(n/ne)
+    VowelStart(n/ni)
+    VowelStart(n/no)
+    VowelStart(n/nu)
+  EndSwitch
+
+  IF prevPh(isNotVowel) AND nextPhW(isLiquid) THEN
+    FMT(n/nj)
+  ELIF prevPh(isPause) OR prevPh(n) THEN
+    FMT(n/_n)
+  ELIF nextPh(isNotVowel) THEN
+    FMT(n/n_)
+  ENDIF
 endphoneme
 phoneme ng      // ng
+  ipa ŋ
   import_phoneme base1/N-
 endphoneme
 phoneme p      // p
+  ipa p
   import_phoneme base1/p
 endphoneme
 phoneme ph      // ph aspirated
+  ipa pʰ
   import_phoneme base1/p
 endphoneme
 phoneme r      // r
+  ipa r
   import_phoneme base1/r
 endphoneme
 phoneme s      // s
+  ipa s
   import_phoneme base1/s
 endphoneme
 phoneme t      // t
+  ipa t
   import_phoneme base1/t
 endphoneme
 phoneme th      // th
+  ipa tʰ
   import_phoneme base1/t
 endphoneme
 phoneme ch      // ch
+  ipa tɕ
   import_phoneme base1/tS;
 endphoneme
 phoneme w      // w
+  ipa w
   import_phoneme base1/w
 endphoneme
 phoneme ʔ // ipa ʔ
+  ipa ʔ
   vls glt stp
 endphoneme
 phoneme j  // j
+  ipa j
   import_phoneme base1/j
 endphoneme
 
