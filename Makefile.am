@@ -401,6 +401,7 @@ phsource/phonemes.stamp: \
 	phsource/ph_yoruba \
 	phsource/ph_zh \
 	phsource/ph_zh_yue \
+	phsource/ph_tha \
 	phsource/phonemes \
 	src/espeak-ng
 	ESPEAK_DATA_PATH=$(CURDIR) src/espeak-ng --compile-intonations && \
@@ -555,7 +556,8 @@ dictionaries: \
 	espeak-ng-data/uz_dict \
 	espeak-ng-data/vi_dict \
 	espeak-ng-data/zh_dict \
-	espeak-ng-data/zhy_dict
+	espeak-ng-data/zhy_dict \
+	espeak-ng-data/tha_dict
 
 af: espeak-ng-data/af_dict
 espeak-ng-data/af_dict: dictsource/af_list dictsource/af_rules dictsource/af_extra dictsource/af_emoji
@@ -802,6 +804,9 @@ espeak-ng-data/sd_dict: dictsource/sd_list dictsource/sd_rules dictsource/sd_ext
 
 shn: espeak-ng-data/shn_dict
 espeak-ng-data/shn_dict: dictsource/shn_list dictsource/shn_rules dictsource/shn_extra
+
+tha: espeak-ng-data/tha_dict
+espeak-ng-data/tha_dict: dictsource/tha_list dictsource/tha_rules dictsource/tha_extra
 
 si: espeak-ng-data/si_dict
 espeak-ng-data/si_dict: dictsource/si_list dictsource/si_rules dictsource/si_extra dictsource/si_emoji

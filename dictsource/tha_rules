@@ -1,0 +1,229 @@
+// Thai pronunciation rules (Thai script)
+
+// Consonants 
+.L01 ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ
+
+.replace
+// Convert numbers
+๐ 0
+๑ 1
+๒ 2
+๓ 3
+๔ 4
+๕ 5
+๖ 6
+๗ 7
+๘ 8
+๙ 9
+
+// punctuation
+.group		บ	// บ
+		บ	b	// TODO: phoneme
+
+.group		ฎ
+		ฎ	d
+
+.group		ฑ
+		ฑ	d
+
+.group		ด
+		ด	d
+
+.group		ฝ
+		ฝ	f
+
+.group		ฟ
+		ฟ	f
+
+.group		ห
+		ห	h
+        หญ	j
+        หย	j
+        หล	l
+        หม	m
+        หน	n
+        หง	ng
+        หร	r
+        หว	w
+
+.group		ฮ
+		ฮ	h
+
+.group		ญ
+		ญ	j
+
+.group		ย
+		ย	j
+
+.group		ย
+		ย	j
+
+.group		ก
+		ก	k
+        กร	k
+
+.group		ข
+		ข	kh
+
+.group		ฃ
+		ฃ	kh
+
+.group		ค
+		ค	kh
+        คร	k
+
+.group		ฅ
+		ฅ	kh
+
+.group		ฆ
+		ฆ	kh
+
+.group		ล
+		ล	l
+
+.group		ฬ
+		ฬ	l
+
+.group		ม
+		ม	m
+
+.group		ณ
+		ณ	n
+
+.group		น
+		น	n
+
+.group		ง
+		ง	ng
+
+.group		ป
+		ป	p
+
+.group		ผ
+		ผ	ph
+
+.group		พ
+		พ	ph
+
+.group		ภ
+		ภ	ph
+
+.group		ร
+		ร	r
+        รุ	n
+
+.group		ซ
+		ซ	s
+        ซร	s
+
+.group		ท
+		ท	th
+		ทร	s
+
+.group		ศ
+		ศ	s
+        ศร	s
+
+.group		ษ
+		ษ	s
+
+.group		ส
+		ส	s
+        สร	s
+
+.group		ฏ
+		ฏ	t
+
+.group		ต
+		ต	t
+        ตร	t
+        ติ	t
+        ตุ	t
+
+.group		ฐ
+		ฐ	th
+
+.group		ฑ
+		ฑ	th
+
+.group		ฒ
+		ฒ	th
+        ฒิ	t
+
+.group		ถ
+		ถ	th
+
+.group		ธ
+		ธ	th
+        ธิ	t
+
+.group		จ
+		จ	ch
+		จร	ch
+
+.group		ฉ
+		ฉ	ch
+
+.group		ช
+		ช	ch
+
+.group		ฌ
+		ฌ	ch
+
+.group		ว
+		ว	w
+
+.group		อ
+		อ	ʔ
+
+.group		◌ะ
+		.L01) ◌ะ	a
+
+.group		◌ั
+		.L01) ◌ั	a
+.group		เ◌
+		เ (L01	eː
+        //เ (L01 ◌ิ (L01	oe
+        //เ (L01 อ	ɤː
+        เ (L01 (L01	eː
+        //เ (L01 ะ	e
+        //เ (L01 ็ (L01	e
+        //เ (L01 า ะ	o-
+        //(L01 ◌็ อ (L01	o-
+        //เ (L01 อ ะ	oe
+.group		แ◌
+		แ	ɛː
+        //L01 แ ◌ ะ	ae
+        //แ (L01 ็ (L01	ae
+
+.group		◌ิ
+		.L01) ◌ิ	i
+
+.group		โ◌
+		โ (L01	oː
+        //โ (L01 ะ	o
+
+.group		◌ุ
+		.L01) ◌ุ	u
+
+.group		◌ึ
+		.L01) ◌ึ	ue
+
+.group		า
+		า	a:
+
+.group		า
+		า	a:
+
+.group		◌ี
+		.L01) ◌ี	iː
+
+.group		◌อ
+	.L01) ◌อ	ɔː
+
+.group		◌ู
+	.L01) ◌ู	uː
+
+.group		◌ื
+	◌ื	ɯː
+    //.L01) ◌ื อ	ɯː
