@@ -178,10 +178,10 @@
 		◌ื) อ	ɯː
 		เ◌) อ	ɤː
 
-.group		◌ะ
-		L01) ◌ะ	a
-		โ◌) ◌ะ	o
-		า) ◌ะ	oo
+.group		ะ
+		L01) ะ	a
+		โ◌) ะ	o
+		า) ะ	oo
 
 .group		◌ั
 		L01) ◌ั	a
@@ -205,26 +205,26 @@
         //L01) โ ◌ ะ	o
 
 .group		◌ุ
-		.L01) ◌ุ	u
+		L01) ุ	u
 
 .group		◌ึ
-		.L01) ◌ึ	ue
+		L01) ึ	ue
 
 .group		า
 	L01) า	a:
-	.เ◌) า	aw
+	เ◌) า	aw
 
 .group		◌ี
-	.L01) ◌ี	iː
+	L01) ◌ี	iː
 
-.group		◌อ
-	.L01) ◌อ	ɔː
+.group		อ
+	L01) อ	ɔː
 
 .group		◌ู
-	.L01) ◌ู	uː
+	L01) ู	uː
 
 .group		◌ื
-	.L01) ◌ื	ɯː
+	L01) ื	ɯː
 
 .group		ใ◌ // ok
 	ใ (L01	ai
