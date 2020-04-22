@@ -193,43 +193,43 @@
         //เ (L01 ็ (L01	e
         //เ (.L01 อ ะ	oe
 .group		แ◌
-		แ	ɛː
+		_) แ	ɛː
         //L01 แ ◌ ะ	ae
         //แ (L01 ็ (L01	ae
 
 .group		◌ิ
-		L01) ◌ิ	i
+		.L01) ◌ิ	i
 
 .group		โ◌
 		โ (L01	oː
         //L01) โ ◌ ะ	o
 
 .group		◌ุ
-		L01) ◌ุ	u
+		.L01) ◌ุ	u
 
 .group		◌ึ
-		L01) ◌ึ	ue
+		.L01) ◌ึ	ue
 
 .group		า
-		า	a:
-		เ◌) า	aw
+	L01) า	a:
+	.เ◌) า	aw
 
 .group		◌ี
-		L01) ◌ี	iː
+	.L01) ◌ี	iː
 
 .group		◌อ
-	L01) ◌อ	ɔː
+	.L01) ◌อ	ɔː
 
 .group		◌ู
-	L01) ◌ู	uː
+	.L01) ◌ู	uː
 
 .group		◌ื
-	◌ื	ɯː
+	.L01) ◌ื	ɯː
 
-.group		ใ◌
+.group		ใ◌ // ok
 	ใ (L01	ai
 
-.group		ไ◌
+.group		ไ◌ // ok
 	ไ (L01	ai
 
 .group		่
