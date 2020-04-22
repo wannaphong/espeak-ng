@@ -54,7 +54,7 @@
 
 .group		ย
 		ย	j
-		◌ั) ย	ai
+		◌ั)ย	ai
 
 .group		ก
 		ก	k
@@ -90,7 +90,7 @@
 
 .group		น
 		น	n
-		L01) น	o n
+		L01)น	o n
 
 .group		ง
 		ง	ng
@@ -175,21 +175,23 @@
 
 .group		อ
 		อ	ʔ
-		◌ื) อ	ɯː
-		เ◌) อ	ɤː
+	_) อ (_	o
+	L01)อ	ɔː
+		◌ื)อ	ɯː
+		เ◌)อ	ɤː
 
-.group		ะ
-		L01) ะ	a
-		โ◌) ะ	o
-		า) ะ	oo
+.group		◌ะ
+		.L01)◌ะ	a
+		.โ◌)◌ะ	o
+		.า)◌ะ	oo
 
 .group		◌ั
-		L01) ◌ั	a
+		.L01)◌ั	a
 .group		เ◌
-		เ (L01	eː
+		เ(L01	eː
         //เ (L01 ◌ิ (L01	oe
-        เ (L01 (L01	eː
-        //เ (L01 ะ	e
+        เ(L01L01	eː
+        //เ(L01ะ	e
         //เ (L01 ็ (L01	e
         //เ (.L01 อ ะ	oe
 .group		แ◌
@@ -198,39 +200,36 @@
         //แ (L01 ็ (L01	ae
 
 .group		◌ิ
-		.L01) ◌ิ	i
+		.L01)◌ิ	i
 
 .group		โ◌
-		โ (L01	oː
+		โ(L01	oː
         //L01) โ ◌ ะ	o
 
 .group		◌ุ
-		L01) ุ	u
+		.L01)◌ุ	u
 
 .group		◌ึ
-		L01) ึ	ue
+		.L01)◌ึ	ue
 
 .group		า
-	L01) า	a:
-	เ◌) า	aw
+	L01)า	a:
+	.เ◌)า	aw
 
 .group		◌ี
-	L01) ◌ี	iː
-
-.group		อ
-	L01) อ	ɔː
+	.L01)◌ี	iː
 
 .group		◌ู
-	L01) ู	uː
+	.L01)◌ู	uː
 
 .group		◌ื
-	L01) ื	ɯː
+	.L01)◌ื	ɯː
 
 .group		ใ◌ // ok
-	ใ (L01	ai
+	ใ(L01	ai
 
 .group		ไ◌ // ok
-	ไ (L01	ai
+	ไ(L01	ai
 
 .group		่
 	่	1
