@@ -136,7 +136,7 @@ phoneme o       //  o
 
   FMT(vowel/o)
 endphoneme
-phoneme o-       // ဢ​ေႃ
+phoneme oo       // ဢ​ေႃ
   vwl starttype #o endtype #o
   length 260
   ipa ɔ
