@@ -1,7 +1,7 @@
 // Thai pronunciation rules (Thai script)
 
 // Consonants 
-.L01 ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ
+.L01 ~ ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ
 
 .replace
 // Convert numbers
@@ -90,7 +90,7 @@
 
 .group		น
 		น	n
-		.L01) น	o n
+		L01) น	o n
 
 .group		ง
 		ง	ng
@@ -179,12 +179,12 @@
 		เ◌) อ	ɤː
 
 .group		◌ะ
-		.L01) ◌ะ	a
+		L01) ◌ะ	a
 		โ◌) ◌ะ	o
 		า) ◌ะ	oo
 
 .group		◌ั
-		.L01) ◌ั	a
+		L01) ◌ั	a
 .group		เ◌
 		เ (L01	eː
         //เ (L01 ◌ิ (L01	oe
@@ -198,30 +198,30 @@
         //แ (L01 ็ (L01	ae
 
 .group		◌ิ
-		.L01) ◌ิ	i
+		L01) ◌ิ	i
 
 .group		โ◌
 		โ (L01	oː
-        //.L01) โ ◌ ะ	o
+        //L01) โ ◌ ะ	o
 
 .group		◌ุ
-		.L01) ◌ุ	u
+		L01) ◌ุ	u
 
 .group		◌ึ
-		.L01) ◌ึ	ue
+		L01) ◌ึ	ue
 
 .group		า
 		า	a:
 		เ◌) า	aw
 
 .group		◌ี
-		.L01) ◌ี	iː
+		L01) ◌ี	iː
 
 .group		◌อ
-	.L01) ◌อ	ɔː
+	L01) ◌อ	ɔː
 
 .group		◌ู
-	.L01) ◌ู	uː
+	L01) ◌ู	uː
 
 .group		◌ื
 	◌ื	ɯː
