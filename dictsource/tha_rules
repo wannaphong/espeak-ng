@@ -1,7 +1,7 @@
 // Thai pronunciation rules (Thai script)
 
 // Consonants 
-.L01 ~ ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ
+.L01 ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ
 
 .replace
 // Convert numbers
@@ -217,7 +217,7 @@
 		เ◌)อ	ɤː
 
 .group		◌ะ
-		.L01) ◌ะ	a
+		ะ (.L01	a
 		_) ◌ะ	ʔ
 		.โ◌)◌ะ	o
 		.า)◌ะ	oo
