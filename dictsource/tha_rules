@@ -18,170 +18,207 @@
 
 // punctuation
 .group		บ	// บ
-		บ	b	// TODO: phoneme
+	_) บ	b	// TODO: phoneme
+	บ (_	p
 
 .group		ฎ
-		ฎ	d
+	_) ฎ	d
+	ฎ (_	t
 
 .group		ฑ
-		ฑ	d
+	_) ฑ	d
 
 .group		ด
-		ด	d
+	_) ด	d
+	ด (_	t
 
 .group		ฝ
-		ฝ	f
+	_) ฝ	f
 
 .group		ฟ
-		ฟ	f
+	_) ฟ	f
+	ฟ (_	p
 
 .group		ห
-		ห	h
+	_) ห	h
         หญ	j
         หย	j
-        หล	l
-        หม	m
-        หน	n
-        หง	ng
-        หร	r
-        หว	w
+    _) หล	l
+    _) หม	m
+    _) หน	n
+    _) หง	ng
+    _) หร	r
+    _) หว	w
 
 .group		ฮ
-		ฮ	h
+	_) ฮ	h
 
 .group		ญ
-		ญ	j
+	_) ญ	j
+	ญ (_	n
 
 .group		ย
-		ย	j
-		◌ั)ย	ai
+	_) ย	j
+	ย (_	i
+	◌ั) ย	ai
 
 .group		ก
-		ก	k
+	_) ก	k
+	ก (_	k
+	กร (_	k
         กร	k
 
 .group		ข
-		ข	kh
+	_) ข	kh
+	ข (_	k
 
 .group		ฃ
-		ฃ	kh
+	_) ฃ	kh
 
 .group		ค
-		ค	kh
-        คร	k
+	_) ค	kh
+	ค (_	k
+    คร (_	k
 
 .group		ฅ
-		ฅ	kh
+	_) ฅ	kh
 
 .group		ฆ
-		ฆ	kh
+	_) ฆ	kh
+	ฆ (_	k
 
 .group		ล
-		ล	l
+	_) ล	l
+	ล (_	n
 
 .group		ฬ
-		ฬ	l
+	_) ฬ	l
+	ฬ (_	n
 
 .group		ม
-		ม	m
+	_) ม	m
+	ม (_	m
 
 .group		ณ
-		ณ	n
+	_) ณ	n
 
 .group		น
-		น	n
-		L01)น	o n
+	_) น	n
+	น (_	n
 
 .group		ง
-		ง	ng
+	_) ง	ng
+	ง (_	ng
 
 .group		ป
-		ป	p
+	_) ป	p
+	ป (_	p
 
 .group		ผ
-		ผ	ph
+	_) ผ	ph
 
 .group		พ
-		พ	ph
+	_) พ	ph
+	พ (_	p
 
 .group		ภ
-		ภ	ph
+	_) ภ	ph
+	ภ (_	p
 
 .group		ร
-		ร	r
-        รุ	n
+	_) ร	r
+	ร (_	n
+    รุ (_	n
+	รถ (_	t
+	รท (_	t
 
 .group		ซ
-		ซ	s
-        ซร	s
+	_) ซ	s
+	ซ (_	t
+    _) ซร	s
 
 .group		ท
-		ท	th
-		ทร	s
+	_) ท	th
+	ท (_	t
+	_) ทร	s
+	ทร (_	t
 
 .group		ศ
-		ศ	s
-        ศร	s
+	_) ศ	s
+	ศ (_	t
+    _) ศร	s
 
 .group		ษ
-		ษ	s
+	_) ษ	s
+	ษ (_	t
 
 .group		ส
-		ส	s
-        สร	s
+	_) ส	s
+	ส (_	t
+    _) สร	s
 
 .group		ฏ
-		ฏ	t
+	_) ฏ	t
 
 .group		ต
-		ต	t
-        ตร	t
-        ติ	t
-        ตุ	t
+	_) ต	t
+	ต (_	t
+    ตร (_	t
+    ติ (_	t
+    ตุ (_	t
 
 .group		ฐ
-		ฐ	th
+	_) ฐ	th
+	ฐ (_	t
 
 .group		ฑ
-		ฑ	th
+	_) ฑ	th
+	ฑ (_	t
 
 .group		ฒ
-		ฒ	th
-        ฒิ	t
+	_) ฒ	th
+	ฒ (_	t
+    ฒิ (_	t
 
 .group		ถ
-		ถ	th
+	_) ถ	th
+	ถ (_	t
 
 .group		ธ
-		ธ	th
-        ธิ	t
+	_) ธ	th
+	ธ (_	t
+    ธิ (_	t
 
 .group		จ
-		จ	ch
-		จร	ch
+	_) จ	ch
+	จ (_	t
+	_) จร	ch
 
 .group		ฉ
-		ฉ	ch
+	_) ฉ	ch
 
 .group		ช
-		ช	ch
+	_) ช	ch
+	ช (_	t
+	ชร (_	t
 
 .group		ฌ
-		ฌ	ch
+	_) ฌ	ch
 
 .group		ว
-		ว	w
+	_) ว	w
+	ว (_	o
 		เ◌) ว	eo
 
 .group		อ
-		อ	ʔ
-	_) อ (_	o
+	_) อ	ʔ
 	L01)อ	ɔː
 		◌ื)อ	ɯː
 		เ◌)อ	ɤː
 
 .group		◌ะ
-		.L01)◌ะ	a
+		.L01) ◌ะ	a
+		_) ◌ะ	ʔ
 		.โ◌)◌ะ	o
 		.า)◌ะ	oo
 
