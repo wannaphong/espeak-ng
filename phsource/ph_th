@@ -247,7 +247,7 @@ phoneme aw
 
   FMT(vdiph/aau_4)
 endphoneme
-phoneme eo
+phoneme ew // ipa ew ## espeak-ng hasn't ew
   vwl starttype #e endtype #o
   length 270
   FMT(vdiph2/eo)
