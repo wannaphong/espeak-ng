@@ -60,7 +60,7 @@
 .group		ย
 	_) ย	j
 	ย (_	i
-	◌ั) ย	ai
+	ั) ย	ai
 
 .group		ก
 	_) ก	k
@@ -208,65 +208,66 @@
 .group		ว
 	_) ว	w
 	ว (_	o
-		เ◌) ว	eo
+		เ) ว	eo
 
 .group		อ
 	_) อ	ʔ
+	อ	ʔ
 	L01)อ	ɔː
-		◌ื)อ	ɯː
-		เ◌)อ	ɤː
+		ื)อ	ɯː
+		เ)อ	ɤː
 
 .group          ะ
-                _) ะ    aʔ
-                _) ะ    ʔ
-                .โ)ะ    o
-                .า)ะ    oo
+                L01)ะ    aʔ
+                _) ะ    a
+                โ)ะ    o
+                า)ะ    oo
 
-.group		◌ั
-		.L01)◌ั	a
-.group		เ◌
+.group		ั
+		L01)ั	a
+.group		เ
 		เ(L01	eː
-        //เ (L01 ◌ิ (L01	oe
+        //เ (L01 ิ (L01	oe
         เ(L01L01	eː
         //เ(L01ะ	e
         //เ (L01 ็ (L01	e
         //เ (.L01 อ ะ	oe
-.group		แ◌
+.group		แ
 		_) แ	ɛː
-        //L01 แ ◌ ะ	ae
+        //L01 แ  ะ	ae
         //แ (L01 ็ (L01	ae
 
-.group		◌ิ
-		.L01)◌ิ	i
+.group		ิ
+		.L01)ิ	i
 
-.group		โ◌
+.group		โ
 		โ(L01	oː
-        //L01) โ ◌ ะ	o
+        //L01) โ  ะ	o
 
-.group		◌ุ
-		.L01)◌ุ	u
+.group		ุ
+		.L01)ุ	u
 
-.group		◌ึ
-		.L01)◌ึ	ue
+.group		ึ
+		.L01)ึ	ue
 
 .group		า
 	L01)า	a:
-	.เ◌)า	aw
+	.เ)า	aw
 
-.group		◌ี
-	.L01)◌ี	iː
+.group		ี
+	.L01)ี	iː
 
-.group		◌ู
-	.L01)ู	uː
+.group		ู
+                .L01)ู	uː
 
-.group		◌ื
-	.L01)◌ื	ɯː
+.group		ื
+	.L01)ื	ɯː
 
-.group		ใ◌ // ok
-	ใ(.L01	ai
+.group		ใ // ok
+	ใ(L01	ai
 
-.group		ไ◌ // ok
-	ไ(.L01	ai
+.group		ไ // ok
+	ไ(L01	ai
 
 .group		่
 	่	1
