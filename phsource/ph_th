@@ -136,7 +136,7 @@ phoneme o       //  o
 
   FMT(vowel/o)
 endphoneme
-phoneme oo       // ဢ​ေႃ
+phoneme ɔ       // ဢ​ေႃ
   vwl starttype #o endtype #o
   length 260
   ipa ɔ
@@ -146,13 +146,13 @@ endphoneme
 phoneme u      // u
   import_phoneme base1/u
 endphoneme
-phoneme ue // ue
+phoneme ɯ // ɯ
   vwl starttype #a endtype #u
   length 170
   ipa ɯ
   FMT(vowel/8_2)
 endphoneme
-phoneme oe
+phoneme ɤ
   vwl starttype #@ endtype #@ lng
   ipa ɤ
   length 240
