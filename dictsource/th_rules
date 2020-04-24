@@ -208,7 +208,8 @@
 .group		ว
 	_) ว	w
 	ว (_	o
-		เ) ว	eo
+		เ)ว	eo
+
 
 .group		อ
 	_) อ	ʔ
@@ -222,7 +223,9 @@
                 _) ะ    a
                 โ)ะ    o
                 า)ะ    oo
-
+.group		็
+		เ)็ว	eo
+		L01)็อ(L01	o-
 .group		ั
 		L01)ั(L01	a
 .group		เ
@@ -255,6 +258,7 @@
 .group		า
 	L01)า	a:
 	เ)า	aw
+	เ)าะ	o-
 
 .group		ี
 	L01)ี	iː
