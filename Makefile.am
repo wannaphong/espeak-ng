@@ -548,6 +548,7 @@ dictionaries: \
 	espeak-ng-data/sw_dict \
 	espeak-ng-data/ta_dict \
 	espeak-ng-data/te_dict \
+	espeak-ng-data/th_dict \
 	espeak-ng-data/tn_dict \
 	espeak-ng-data/tr_dict \
 	espeak-ng-data/tt_dict \
@@ -556,8 +557,7 @@ dictionaries: \
 	espeak-ng-data/uz_dict \
 	espeak-ng-data/vi_dict \
 	espeak-ng-data/zh_dict \
-	espeak-ng-data/zhy_dict \
-	espeak-ng-data/th_dict
+	espeak-ng-data/zhy_dict
 
 af: espeak-ng-data/af_dict
 espeak-ng-data/af_dict: dictsource/af_list dictsource/af_rules dictsource/af_extra dictsource/af_emoji
@@ -805,9 +805,6 @@ espeak-ng-data/sd_dict: dictsource/sd_list dictsource/sd_rules dictsource/sd_ext
 shn: espeak-ng-data/shn_dict
 espeak-ng-data/shn_dict: dictsource/shn_list dictsource/shn_rules dictsource/shn_extra
 
-th: espeak-ng-data/th_dict
-espeak-ng-data/th_dict: dictsource/th_list dictsource/th_rules dictsource/th_extra
-
 si: espeak-ng-data/si_dict
 espeak-ng-data/si_dict: dictsource/si_list dictsource/si_rules dictsource/si_extra dictsource/si_emoji
 
@@ -842,6 +839,9 @@ espeak-ng-data/ta_dict: dictsource/ta_list dictsource/ta_rules dictsource/ta_ext
 
 te: espeak-ng-data/te_dict
 espeak-ng-data/te_dict: dictsource/te_list dictsource/te_rules dictsource/te_extra dictsource/te_emoji
+
+th: espeak-ng-data/th_dict
+espeak-ng-data/th_dict: dictsource/th_list dictsource/th_rules dictsource/th_extra
 
 tn: espeak-ng-data/tn_dict
 espeak-ng-data/tn_dict: dictsource/tn_list dictsource/tn_rules dictsource/tn_extra
