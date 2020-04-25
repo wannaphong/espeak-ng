@@ -66,7 +66,7 @@ phoneme n      // n
     FMT(n/n_)
   ENDIF
 endphoneme
-phoneme ng      // ng
+phoneme ŋ      // ŋ
   ipa ŋ
   import_phoneme base1/N-
 endphoneme
@@ -121,7 +121,7 @@ endphoneme
 phoneme e      // e
   import_phoneme base1/e
 endphoneme
-phoneme ae      // ae
+phoneme ɛ     // ae
   ipa ɛ
   vwl starttype #e endtype #e
   length 200
@@ -252,6 +252,12 @@ phoneme ew // ipa ew ## espeak-ng hasn't ew
   length 270
   FMT(vdiph2/eo)
 endphoneme
+//phoneme ɛw      // ɛw // TODO it's not good.
+//  ipa ɛw
+//  vwl starttype #e endtype #o
+//  length 200
+//  FMT(vowel/ee#)
+//endphoneme
 phoneme io
   vwl starttype #i endtype #o
   length 250
