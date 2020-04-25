@@ -258,18 +258,21 @@ endphoneme
 //  length 200
 //  FMT(vowel/ee#)
 //endphoneme
-phoneme io
+phoneme iw
+  ipa iw
   vwl starttype #i endtype #o
   length 250
   FMT(vdiph2/iioo)
 endphoneme
-phoneme oi     // ဢူၺ်
+phoneme ɔj     // ဢူၺ်
+  ipa ɔj
   vwl starttype #o endtype #i
   length 200
 
   FMT(vdiph/ooi)
 endphoneme
-phoneme ui   //  uj
+phoneme uj   //  uj
+  ipa uj
   vwl starttype #u endtype #i
   length 200
 
