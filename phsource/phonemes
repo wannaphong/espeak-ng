@@ -1810,6 +1810,9 @@ include ph_setswana
 phonemetable tt base1
 include ph_tatar
 
+phonemetable th base1
+include ph_thai
+
 phonemetable vi base1
 include ph_vietnam
 
@@ -2025,5 +2028,3 @@ include ph_vietnam_sgn
 phonemetable sd ur
 include ph_sindhi
 
-phonemetable th base1
-include ph_th
