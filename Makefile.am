@@ -390,6 +390,7 @@ phsource/phonemes.stamp: \
 	phsource/ph_tamil \
 	phsource/ph_tatar \
 	phsource/ph_telugu \
+	phsource/ph_thai \
 	phsource/ph_tibetan \
 	phsource/ph_turkish \
 	phsource/ph_urdu \
@@ -401,7 +402,6 @@ phsource/phonemes.stamp: \
 	phsource/ph_yoruba \
 	phsource/ph_zh \
 	phsource/ph_zh_yue \
-	phsource/ph_th \
 	phsource/phonemes \
 	src/espeak-ng
 	ESPEAK_DATA_PATH=$(CURDIR) src/espeak-ng --compile-intonations && \
