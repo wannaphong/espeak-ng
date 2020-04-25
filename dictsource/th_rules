@@ -290,7 +290,19 @@
 	เ)ือ(L01	ɯa	//เ◌ือ◌
 
 .group		ใ // ok
-	ใ(L01	ai
+	ใ(L01	aj
+	ใน	naj
+	ใบ	baj
+	ใบ้	baj˥˩
+	ใผ่	faj˨˩
+	ใภ้	phaj˥˩
+	ใย	jaj
+	ใส	saj
+	ใส่	saj˨˩
+	ให้	haj˥˩
+	ใหล	laj
+	ใหญ่	jaj˨˩
+	ใหม่	maj˨˩
 
 .group		ไ // ok
 	_)ไ ai
@@ -298,13 +310,13 @@
 
 
 .group		่
-	่	1
+	่	˨˩
 
 .group		้
-	้	2
+	้	˥˩
 
 .group		๊
-	๊	3
+	๊	˦˥
 
 .group		๋
-	๋	4
+	๋	˩˦

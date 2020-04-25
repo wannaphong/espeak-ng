@@ -230,9 +230,10 @@ endphoneme
 //*******************************************************************
 // Vowels + syllable-final /j, w/
 //*******************************************************************
-phoneme ai   // ဢႆ
+phoneme aj   // ဢႆ
   vwl starttype #a endtype #i
   length 200
+  ipa aj
 
   FMT(vdiph/ai)
 endphoneme
@@ -283,22 +284,22 @@ endphoneme
 // TONES
 //*******************************************************************
 
-phoneme 4 // rising tone (contour: 24)
+phoneme ˩˦ // rising tone (contour: 24) // ๋
   stress
   Tone(20, 40, envelope/p_rise, NULL)
 endphoneme
 
-phoneme 1 // low tone (contour: 11)
+phoneme ˨˩ // low tone (contour: 11) // ่
   stress
   Tone(10, 10, envelope/i_risefall, NULL)
 endphoneme
 
-phoneme 3 // high tone (contour: 55)
+phoneme ˦˥ // high tone (contour: 55) // ๊
   stress
   Tone(50, 50, envelope/i_risefall, NULL)
 endphoneme
 
-phoneme 2 // falling (creaky) tone (contour: 42)
+phoneme ˥˩ // falling (creaky) tone (contour: 42) // ้
   stress
   Tone(40, 20, envelope/p_fall, NULL)
 endphoneme
