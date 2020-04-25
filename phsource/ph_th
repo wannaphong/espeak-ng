@@ -86,10 +86,6 @@ phoneme s      // s
   ipa s
   import_phoneme base1/s
 endphoneme
-phoneme t      // t
-  ipa t
-  import_phoneme base1/t
-endphoneme
 phoneme th      // th
   ipa tʰ
   import_phoneme base1/t
