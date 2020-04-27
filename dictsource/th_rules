@@ -15,9 +15,6 @@
 ๗ 7
 ๘ 8
 ๙ 9
-เก กเ
-เข ขเ
-เค คเ
 
 // punctuation
 .group		บ	// บ
@@ -244,7 +241,7 @@
 	L01)ัย	ai
 	L01)ั(L01	a
 .group		เ
-	L01)เ	eː	//เ◌
+	L01)เ(_	eː	//เ◌
 .group		แ
 	_) แ(L01	ɛː	//แ◌
 	_) แ(L01L01	ɛː	//แ◌◌
@@ -305,7 +302,13 @@
 .group		ไ // ok
 	_)ไ ai
 	L01)ไ ai
-	ไท    tai
+	ไท    thaj
+	ไทย	thaj
+	ไป	paj
+	ไฟ	faj
+	ไผ่	phaj
+	ไกล	klaj
+	ไข	khaj
 
 
 .group		่
