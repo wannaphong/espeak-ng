@@ -285,21 +285,25 @@ endphoneme
 //*******************************************************************
 
 phoneme ˩˦ // rising tone (contour: 24) // ๋
+  ipa ˩˦
   stress
   Tone(20, 40, envelope/p_rise, NULL)
 endphoneme
 
 phoneme ˨˩ // low tone (contour: 11) // ่
+  ipa ˨˩
   stress
   Tone(10, 10, envelope/i_risefall, NULL)
 endphoneme
 
 phoneme ˦˥ // high tone (contour: 55) // ๊
+  ipa ˦˥
   stress
   Tone(50, 50, envelope/i_risefall, NULL)
 endphoneme
 
 phoneme ˥˩ // falling (creaky) tone (contour: 42) // ้
+  ipa ˥˩
   stress
   Tone(40, 20, envelope/p_fall, NULL)
 endphoneme
